@@ -1,5 +1,5 @@
 # this is an apt update script
-echo "Updating package lists (update)"
+sudo echo "Updating package lists (update)"
 sudo apt-get update
 echo "Upgrading packages (upgrade)"
 sudo apt-get upgrade
