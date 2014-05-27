@@ -1,0 +1,11 @@
+# Create new chain
+iptables -N wanout
+iptables -I FORWARD -i `nvram get lan_ifname` -j wanout
+# MG DNS
+iptables -I wanout -d 172.16.0.1 -j ACCEPT
+# MG Firewall
+iptables -I wanout -d 172.16.255.254 -j ACCEPT
+# www.mg.k12.mo.us
+iptables -I wanout -d 172.16.255.8 -j ACCEPT
+# Drop anything else
+iptables -A wanout -i `nvram get lan_ifname` -j DROP
