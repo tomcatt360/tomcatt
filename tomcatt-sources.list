@@ -1,0 +1,9 @@
+##Spotify
+#use this line to get the signing keys:
+#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 94558F59
+deb http://repository.spotify.com stable non-free
+
+##Graham Edgecombe's repo (http://grahamedgecombe.com)
+#Use this line to get the signing keys
+#wget -qO - http://grahamedgecombe.com/graham.asc | sudo apt-key add -
+deb http://archive.grahamedgecombe.com/ stable main
