@@ -1,3 +1,4 @@
+#!/bin/bash
 while [ "100" -gt "1" ]
 do
 echo "Starting up... Press Ctrl-C to abort"

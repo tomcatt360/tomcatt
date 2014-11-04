@@ -1,3 +1,4 @@
+#!/bin/bash
 # this is an apt update script
 sudo echo "Updating package lists (update)"
 sudo apt-get update

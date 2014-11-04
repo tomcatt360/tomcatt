@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Bitcoin sync in progress..."
 ./bitcoin-qt &
 sleep 900

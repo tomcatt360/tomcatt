@@ -1,3 +1,4 @@
+#!/bin/bash
 while (1>0)
 do
 date >> ./dates.log
