@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#a script to 
+#a script to synchronize cryptocurrency blockchains
 echo "Bitcoin sync in progress..."
 ./bitcoin-qt &
 sleep $1
